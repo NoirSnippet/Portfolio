@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section id="about" className="py-24 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -31,7 +31,7 @@ export default function About() {
                 <Terminal className="text-neonBlue" size={24} />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white uppercase tracking-wider">Initialize User</h3>
+                <h3 className="text-xl font-bold text-white uppercase tracking-wider">Noir Snippet</h3>
                 <p className="text-sm text-neonPurple font-mono">Status: Online</p>
               </div>
             </div>
@@ -54,11 +54,11 @@ export default function About() {
             <div className="w-full h-full bg-[#1e293b]/50 overflow-hidden relative">
               <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-30 mix-blend-overlay"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-base via-transparent to-transparent"></div>
-              
+
               {/* Cyber elements */}
               <div className="absolute top-4 right-4 w-12 h-12 border-t-2 border-r-2 border-neonBlue opacity-50"></div>
               <div className="absolute bottom-4 left-4 w-12 h-12 border-b-2 border-l-2 border-neonPurple opacity-50"></div>
-              
+
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-32 h-32 border border-neonBlue rounded-full flex items-center justify-center relative animate-[spin_10s_linear_infinite]">
                   <div className="w-24 h-24 border border-neonPurple rounded-full border-dashed"></div>
