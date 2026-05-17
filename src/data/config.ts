@@ -5,7 +5,7 @@ export const config = {
     name: "Noir Snippet",
     role: "Frontend Developer / Designer / Student ",
     location: "Prayagraj, India",
-    bio: "Im a passionate developer focused on building clean accesible and user friendly web applications.i love turning complex problems into intuitive digital experiences.",
+    bio: "I'm a passionate developer focused on building clean accessible and user friendly web applications. I love turning complex problems into intuitive digital experiences.",
     email: "tashansingh57@gmail.com.com", // Placeholder
   },
   socials: [
